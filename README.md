@@ -32,9 +32,9 @@ library.theme = {
     accentcolor = Color3.fromRGB(28, 56, 139),
     accentcolor2 = Color3.fromRGB(16, 31, 78),
     outlinecolor = Color3.fromRGB(255, 0, 0),
-    outlinecolor2 = Color3.fromRGB(0, 0, 0),
+    outlinecolor2 = Color3.fromRGB(255, 0, 0),
     sectorcolor = Color3.fromRGB(30, 30, 30),
-    toptextcolor = Color3.fromRGB(255, 255, 255),
+    toptextcolor = Color3.fromRGB(255, 0, 0),
     topheight = 48,
     topcolor = Color3.fromRGB(30, 30, 30),
     topcolor2 = Color3.fromRGB(30, 30, 30),
@@ -3652,4 +3652,4 @@ function library:CreateWindow(name, size, hidebutton)
     return window
 end
 
-return library
+return library 
